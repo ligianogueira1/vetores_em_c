@@ -5,8 +5,10 @@ Se não existir, imprimir uma mensagem que o número não existe no vetor.*/
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(void) {
+  srand(time(0));
   int N, i, V[8], posicao, cont = 0;
   printf("Digite um número: ");
   scanf("%d", &N);
