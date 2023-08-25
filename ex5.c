@@ -16,7 +16,7 @@ int main(void) {
       printf("\n");
     }
     for (j = 0; j < 3; j++) {
-      A[i][j] = rand() % 10;
+      A[i][j] = rand() % 100;
       printf("%d ", A[i][j]);
     }
   }
@@ -24,7 +24,7 @@ int main(void) {
   for (i = 0; i < 2; i++) {
     printf("\n");
     for (j = 0; j < 3; j++) {
-      B[i][j] = rand() % 10;
+      B[i][j] = rand() % 100;
       printf("%d ", B[i][j]);
     }
   }
